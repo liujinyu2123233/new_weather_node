@@ -1,0 +1,890 @@
+
+* {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #f2f4f7 none repeat scroll 0 0;
+    color: #252525;
+    font: 14px/1.6 "Microsoft Yahei","Tahoma","SimSun";
+}
+input, button, select {
+    vertical-align: middle;
+}
+.fl {
+    display: inline;
+    float: left;
+}
+.fr {
+    display: inline;
+    float: right;
+}
+ul {
+    list-style: outside none none;
+}
+a {
+    color: #252525;
+    text-decoration: none;
+}
+a:hover {
+    color: #ee842f;
+}
+h1, h, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+i, em {
+    font-style: normal;
+}
+a:hover {
+    color: #ee842f;
+}
+.clearfix {
+}
+.clearfix::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+body {
+    /*background: rgba(0, 0, 0, 0) url("../images/11.jpg") no-repeat scroll center top;*/
+}
+i {
+    background-image: url("../images/icon.png");
+    background-repeat: no-repeat;
+}
+.d00 {
+    background-position: 0 0;
+}
+.d01 {
+    background-position: -80px 0;
+}
+.d02 {
+    background-position: -160px 0;
+}
+.d03 {
+    background-position: -240px 0;
+}
+.d04 {
+    background-position: -320px 0;
+}
+.d05 {
+    background-position: -400px 0;
+}
+.d06 {
+    background-position: -480px 0;
+}
+.d07 {
+    background-position: -560px 0;
+}
+.d08 {
+    background-position: -640px 0;
+}
+.d09 {
+    background-position: 0 -80px;
+}
+.d10 {
+    background-position: -80px -80px;
+}
+.d11 {
+    background-position: -160px -80px;
+}
+.d12 {
+    background-position: -240px -80px;
+}
+.d13 {
+    background-position: -320px -80px;
+}
+.d14 {
+    background-position: -400px -80px;
+}
+.d15 {
+    background-position: -480px -80px;
+}
+.d16 {
+    background-position: -560px -80px;
+}
+.d17 {
+    background-position: -640px -80px;
+}
+.d18 {
+    background-position: 0 -160px;
+}
+.d19 {
+    background-position: -80px -160px;
+}
+.d20 {
+    background-position: -160px -160px;
+}
+.d21 {
+    background-position: -240px -160px;
+}
+.d22 {
+    background-position: -320px -160px;
+}
+.d23 {
+    background-position: -400px -160px;
+}
+.d24 {
+    background-position: -480px -160px;
+}
+.d25 {
+    background-position: -560px -160px;
+}
+.d26 {
+    background-position: -640px -160px;
+}
+.d27 {
+    background-position: 0 -240px;
+}
+.d28 {
+    background-position: -80px -240px;
+}
+.d29 {
+    background-position: -160px -240px;
+}
+.d30 {
+    background-position: -240px -240px;
+}
+.d31 {
+    background-position: -320px -240px;
+}
+.d32 {
+    background-position: -400px -240px;
+}
+.d33 {
+    background-position: -480px -240px;
+}
+.d53 {
+    background-position: -560px -240px;
+}
+.d57 {
+    background-position: -720px 0;
+}
+.d32 {
+    background-position: -720px -80px;
+}
+.d49 {
+    background-position: -720px -160px;
+}
+.d58 {
+    background-position: -720px -240px;
+}
+.d54 {
+    background-position: -800px 0;
+}
+.d55 {
+    background-position: -800px -80px;
+}
+.d56 {
+    background-position: -800px -160px;
+}
+.d301 {
+    background-position: -880px 0;
+}
+.d302 {
+    background-position: -880px -80px;
+}
+.n00 {
+    background-position: 0 -320px;
+}
+.n01 {
+    background-position: -80px -320px;
+}
+.n02 {
+    background-position: -160px -320px;
+}
+.n03 {
+    background-position: -240px -320px;
+}
+.n04 {
+    background-position: -320px -320px;
+}
+.n05 {
+    background-position: -400px -320px;
+}
+.n06 {
+    background-position: -480px -320px;
+}
+.n07 {
+    background-position: -560px -320px;
+}
+.n08 {
+    background-position: -640px -320px;
+}
+.n09 {
+    background-position: 0 -400px;
+}
+.n10 {
+    background-position: -80px -400px;
+}
+.n11 {
+    background-position: -160px -400px;
+}
+.n12 {
+    background-position: -240px -400px;
+}
+.n13 {
+    background-position: -320px -400px;
+}
+.n14 {
+    background-position: -400px -400px;
+}
+.n15 {
+    background-position: -480px -400px;
+}
+.n16 {
+    background-position: -560px -400px;
+}
+.n17 {
+    background-position: -640px -400px;
+}
+.n18 {
+    background-position: 0 -480px;
+}
+.n19 {
+    background-position: -80px -480px;
+}
+.n20 {
+    background-position: -160px -480px;
+}
+.n21 {
+    background-position: -240px -480px;
+}
+.n22 {
+    background-position: -320px -480px;
+}
+.n23 {
+    background-position: -400px -480px;
+}
+.n24 {
+    background-position: -480px -480px;
+}
+.n25 {
+    background-position: -560px -480px;
+}
+.n26 {
+    background-position: -640px -480px;
+}
+.n27 {
+    background-position: 0 -560px;
+}
+.n28 {
+    background-position: -80px -560px;
+}
+.n29 {
+    background-position: -160px -560px;
+}
+.n30 {
+    background-position: -240px -560px;
+}
+.n31 {
+    background-position: -320px -560px;
+}
+.n32 {
+    background-position: -400px -560px;
+}
+.n33 {
+    background-position: -480px -560px;
+}
+.n53 {
+    background-position: -560px -560px;
+}
+.n57 {
+    background-position: -720px -320px;
+}
+.n32 {
+    background-position: -720px -400px;
+}
+.n49 {
+    background-position: -720px -480px;
+}
+.n58 {
+    background-position: -720px -560px;
+}
+.n54 {
+    background-position: -800px -320px;
+}
+.n55 {
+    background-position: -800px -400px;
+}
+.n56 {
+    background-position: -800px -480px;
+}
+.n301 {
+    background-position: -880px -320px;
+}
+.n302 {
+    background-position: -880px -400px;
+}
+.box {
+    margin: 0 auto;
+    width: 1000px;
+}
+.top_dzcity {
+    border-bottom: 1px solid #d3dce5;
+    margin-top: 66px;
+}
+.top_dzcity .fl {
+}
+.top_dzcity .fl ul {
+    float: left;
+}
+.top_dzcity .fl ul li {
+    color: #99a1a9;
+    float: left;
+    font-size: 18px;
+    line-height: 46px;
+    margin: 0 5px;
+    padding: 0 20px;
+}
+.top_dzcity .fl ul li.on {
+    border-bottom: 1px solid #043567;
+    color: #043567;
+    font-size: 22px;
+}
+.top_dzcity .fl .add {
+    background-position: -2px -216px;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 24px;
+    margin: 14px 0 0 22px;
+    width: 24px;
+}
+.top_dzcity .fr {
+    float: right;
+    margin-top: 21px;
+}
+.top_dzcity .fr span {
+    color: #99a1a9;
+    font-size: 12px;
+}
+.con_sk_24h {
+    background: rgba(0, 0, 0, 0) linear-gradient(#0676d4, #80c0e8) repeat scroll 0 0;
+    height: 478px;
+    padding-top: 10px;
+}
+.con_sk_24h .sk {
+}
+.con_sk_24h .sk .t {
+    height: 130px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 453px;
+}
+.con_sk_24h .sk .t .l {
+    color: #fff;
+    float: left;
+    text-align: right;
+    width: 252px;
+}
+.con_sk_24h .sk .t .l span {
+    font-size: 100px;
+    font-weight: lighter;
+}
+.con_sk_24h .sk .t .l em {
+    font-size: 52px;
+}
+.con_sk_24h .sk .t .l i {
+}
+.con_sk_24h .sk .t .r {
+    color: #fff;
+    float: left;
+    height: 100%;
+    padding-left: 31px;
+    padding-top: 50px;
+}
+.con_sk_24h .sk .t .r em {
+    float: left;
+    font-size: 18px;
+    line-height: 30px;
+    margin-right: 10px;
+}
+.con_sk_24h .sk .t .r i {
+    background-image: url("http://i.tq121.com.cn/i/weather2015/png/white30.png");
+    background-repeat: no-repeat;
+    float: left;
+    height: 30px;
+    margin-right: 10px;
+    width: 30px;
+}
+.con_sk_24h .sk .t .r span {
+    float: left;
+    margin-right: 10px;
+}
+.con_sk_24h .sk .t .r .d {
+    padding-bottom: 12px;
+}
+.con_sk_24h .sk .t .r .d span {
+}
+.con_sk_24h .sk .t .r .d i {
+}
+.con_sk_24h .sk .t .r .d span {
+    line-height: 30px;
+}
+.con_sk_24h .sk .b {
+    margin: 20px auto 0;
+    width: 690px;
+}
+.con_sk_24h .sk .b li {
+    color: #fff;
+    float: left;
+    line-height: 24px;
+    margin-right: 20px;
+}
+.con_sk_24h .sk .b li i {
+    float: left;
+    height: 24px;
+    margin-right: 3px;
+    width: 24px;
+}
+.con_sk_24h .sk .b li.sd i {
+    background-position: 0 -102px;
+}
+.con_sk_24h .sk .b li.bf i {
+    background-position: -2px -174px;
+}
+.con_sk_24h .sk .b li.hj i {
+    background-position: -1px -65px;
+}
+.con_sk_24h .sk .b li.rc i {
+    background-position: -2px -137px;
+}
+.con_sk_24h .sk .b li.rl i {
+    background-position: -1px -31px;
+}
+.con_sk_24h .sk .b li span {
+    float: left;
+    margin-right: 7px;
+}
+.con_sk_24h .sk .b li em {
+    float: left;
+}
+.con_sk_24h .line_con {
+    margin-top: 23px;
+}
+.con_sk_24h .line_con .nav {
+    background: #6eb3e6 none repeat scroll 0 0;
+    color: #fff;
+    line-height: 34px;
+    padding-left: 13px;
+}
+.con_sk_24h .line_con .nav .l {
+    font-size: 16px;
+    margin-left: 10px;
+}
+.con_sk_24h .line_con .nav .l span {
+    cursor: pointer;
+    float: left;
+    height: 100%;
+    padding: 0 8px;
+}
+.con_sk_24h .line_con .nav .l span.on {
+    border-bottom: 1px solid #fff;
+}
+.con_sk_24h .line_con .nav .l em {
+    float: left;
+    margin: 0 4px;
+}
+.con_sk_24h .line_con .nav .l {
+}
+.con_sk_24h .line_con .nav .r {
+    margin-right: 22px;
+}
+#curve {
+    height: 227px;
+    position: relative;
+    width: 100%;
+    background:  linear-gradient(#66afe3,#86c3e9) repeat-y scroll 0 0;
+}
+#curve em {
+    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
+    position: absolute;
+    text-align: center;
+}
+#curve .time em {
+    top: 200px;
+}
+#curve .tem em {
+    color: #fff;
+    top: 118px;
+}
+#curve .biggt {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+
+}
+#curve .wind {
+    left: 0;
+    position: absolute;
+    top: 315px;
+    width: 100%;
+}
+#curve .wind span {
+    line-height: 22px;
+    position: absolute;
+    text-align: center;
+}
+#curve .winds {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#curve .wpic div {
+    position: absolute;
+    z-index: 9;
+}
+#curve .wpic .weatxt {
+    color: #666;
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    opacity: 0.8;
+    text-align: center;
+    top: 171px;
+}
+#curve .weatxt.w0 {
+    background: #aaa none repeat scroll 0 0;
+}
+#curve .weatxt.w1 {
+    background: #c8e3fc none repeat scroll 0 0;
+}
+#curve .weatxt.w2 {
+    background: #b6d1e2 none repeat scroll 0 0;
+}
+#curve .weatxt.w3 {
+    background: #aadbd0 none repeat scroll 0 0;
+}
+#curve .weatxt.w4 {
+    background: #a4b1e4 none repeat scroll 0 0;
+}
+#curve .winf em {
+    top: 185px;
+}
+#curve .winl em {
+    top: 212px;
+}
+.fo15 {
+    height: 437px;
+    margin-top: 20px;
+    background: #fff;
+}
+.fo15 h3.tit {
+    line-height: 34px;
+    padding-top: 6px;
+    text-indent: 17px;
+}
+.fo15 .cont {
+    height: 377px;
+    margin: 0 auto;
+    overflow-y: scroll;
+    position: relative;
+    width: 958px;
+}
+.fo15 ul {
+    width: 1590px;
+}
+.fo15 ul li {
+    border-right: 1px solid #f3f3f3;
+    float: left;
+    height: 282px;
+    margin-top: 28px;
+    position: relative;
+    text-align: center;
+    width: 105px;
+}
+.fo15 ul li .t {
+    color: #5e6c7a;
+    display: block;
+    font-size: 12px;
+    position: absolute;
+    text-align: center;
+    top: -21px;
+    width: 100%;
+}
+.fo15 ul li i {
+    background-image: url("http://i.tq121.com.cn/i/weather2015/png/blue30.png");
+    background-repeat: no-repeat;
+    display: block;
+    height: 30px;
+    margin: 0 auto;
+    width: 30px;
+}
+.fo15 ul li i.d {
+    margin-top: 13px;
+}
+.fo15 ul li i.n {
+    margin-top: 164px;
+}
+.fo15 ul li span.wx {
+    color: #5e6c7a;
+    display: block;
+    margin-top: 11px;
+    text-align: center;
+    width: 100%;
+}
+.fo15 ul li span.wl {
+    color: #5e6c7a;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.fo15 ul li em {
+    border-radius: 8px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 9px;
+    padding: 0 8px;
+}
+.fo15 ul li em.lv1 {
+    background: #1f8ce8 none repeat scroll 0 0;
+}
+.fo15 ul li em.lv2 {
+    background: #66bfff none repeat scroll 0 0;
+}
+.fo15 ul li em.lv3 {
+    background: #8fa6bc none repeat scroll 0 0;
+}
+.fo15 ul li em.lv4 {
+    background: #9c9a95 none repeat scroll 0 0;
+}
+.fo15 .cont .contbox {
+    position: relative;
+}
+.fo15 .cont .contbox .linecont {
+    height: 160px;
+    position: absolute;
+    top: 70px;
+    width: 1590px;
+}
+.fo15 {
+}
+.live {
+    background: #fff;
+    border-bottom: 1px solid #79baea;
+    height: 276px;
+    margin-top: 18px;
+}
+.live .t {
+    border-bottom: 2px solid #f2f4f7;
+    height: 38px;
+}
+.live .t h2 {
+    float: left;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 40px;
+    text-indent: 20px;
+}
+.live .t ul {
+    float: left;
+    margin-left: 29px;
+}
+.live .t ul li {
+    cursor: pointer;
+    border-bottom: 2px solid #f2f4f7;
+    color: #5e6c7a;
+    float: left;
+    font-size: 14px;
+    line-height: 38px;
+    margin-right: 9px;
+    padding-left: 10px;
+    padding-right: 16px;
+}
+.live .t ul li i {
+    float: left;
+    height: 22px;
+    margin-top: 7px;
+    width: 22px;
+}
+.live .t ul li.zwx i {
+}
+.live .t ul li.zwx.on{
+    border-bottom: 2px solid #79baea;
+}
+.live .t ul li.zwx.on i {
+    background-position: 0 -243px;
+}
+.live .t ul li.cy i {
+    background-position: 0 -271px;
+}
+.live .t ul li.xc i {
+    background-position: 0 -299px;
+}
+.live .t ul li.ly i {
+    background-position: 0 -328px;
+}
+.live .t ul li.gm i {
+    background-position: 0 -355px;
+}
+.live .t ul li.yd i {
+    background-position: 0 -382px;
+}
+.live .t ul li span {
+    margin-left: 2px;
+}
+.live .t i.btn {
+    background-position: 0 -416px;
+    cursor: pointer;
+    float: right;
+    height: 24px;
+    margin-right: 14px;
+    margin-top: 8px;
+    width: 24px;
+}
+.live .cont {
+}
+.live .cont ul {
+    background: #fff none repeat scroll 0 0;
+    padding-left: 20px;
+}
+.live .cont ul li {
+    border-right: 1px solid #f3f3f3;
+    float: left;
+    height: 190px;
+    margin-top: 27px;
+    position: relative;
+    text-align: center;
+    width: 137px;
+}
+.live .cont ul li h3 {
+    color: #5e6c7a;
+    font-size: 12px;
+    margin-top: -12px;
+    text-align: center;
+}
+.live .cont ul li div {
+    height: 60px;
+    margin: 10px auto;
+    position: relative;
+    width: 60px;
+}
+.live .cont ul li div span {
+    /*border: 2px solid #d6d6d6;*/
+    /*border-radius: 50%;*/
+    color: #252525;
+    display: block;
+    font-size: 20px;
+    height: 56px;
+    left: 0;
+    line-height: 56px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 56px;
+
+}
+.live .cont ul li div span.lv1{
+    background: url("../images/lv1.png") no-repeat;}
+.live .cont ul li div span.lv2{
+    background: url("../images/lv2.png") no-repeat;}
+.live .cont ul li div span.lv3{
+    background: url("../images/lv3.png") no-repeat;}
+.live .cont ul li div span.lv4{
+    background: url("../images/lv4.png") no-repeat;}
+.live .cont ul li div em {
+    border: 2px solid #d6d6d6;
+    border-radius: 50%;
+    display: block;
+    height: 52px;
+    width: 52px;
+}
+.live .cont ul li p {
+    color: #a7b0bf;
+    font-size: 12px;
+    margin: 0 auto;
+    width: 100px;
+}
+.new {
+    margin-top: 20px;
+    background: #fff;
+}
+.new h2 {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 40px;
+    text-indent: 20px;
+}
+.new .cont {
+}
+.new .cont .l {
+    float: left;
+    margin-left: 20px;
+}
+.new .cont .l img {
+    height: 226px;
+    width: 300px;
+}
+.new .cont .c {
+    float: left;
+    margin-left: 8px;
+    width: 334px;
+}
+.new .cont .c .hot {
+    font-size: 18px;
+    font-weight: bold;
+}
+.new .cont .c ul {
+    margin-top: 3px;
+}
+.new .cont .c ul li {
+    line-height: 32px;
+}
+.new .cont .c ul li i {background-position: -2px -447px;
+    float: left;
+    height: 5px;
+    margin: 13px 8px 0 1px;
+    width: 5px;
+}
+.new .cont .c ul li a {
+}
+.new .cont .r {
+    float: left;
+    width: 332px;
+}
+.new .cont .r .girl {
+}
+.new .cont .r .girl img {
+    float: left;
+    height: 125px;
+    width: 165px;
+}
+.new .cont .r .girl .txt {
+    float: left;
+    padding-left: 10px;
+    width: 150px;
+}
+.new .cont .r .girl .txt h2 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;text-indent: 0;
+}
+.new .cont .r .girl .txt p {
+    font-size: 12px;
+    margin-top: 7px;
+}
+.new .cont .r .list {
+    margin-top: 3px;
+}
+.new .cont .r .list li {
+    line-height: 32px;
+}
+.new .cont .r .list li i {background-position: -2px -447px;
+    float: left;
+    height: 5px;
+    margin:14px 7px 0 8px;
+    width: 5px;
+}
+.new .cont .r .list li a {
+}
+.new {
+}

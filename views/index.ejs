@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>天气预报-中国天气网</title>
+
+    <!-- Bootstrap -->
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="stylesheets/style.css"/>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="top_dzcity box clearfix">
+    <div class="fl">
+        <ul class="clearfix">
+            <li class="on">北京</li>
+            <li>北京</li>
+            <li>北京</li>
+            <li>北京</li>
+        </ul>
+        <i class="add"></i>
+    </div>
+    <div class="fr">
+        <span>11:30更新</span>
+    </div>
+</div>
+
+<div class="con_sk_24h ">
+    <div class="box">
+        <div class="sk">
+            <div class="t clearfix">
+                <div class="l">
+                    <span>26</span>
+                    <em>℃</em>
+                    <i class="warn"></i>
+                </div>
+                <div class="r">
+                    <div class="d clearfix">
+                        <em>↑</em>
+                        <i class="png40 d01"></i>
+                        <span>26℃</span>
+                    </div>
+                    <div class="n clearfix">
+                        <em>↓</em>
+                        <i class="png40 n01"></i>
+                        <span>26℃</span>
+                    </div>
+                </div>
+            </div>
+            <ul class="b clearfix">
+                <li class="sd">
+                    <i></i>
+                    <span>相对湿度</span>
+                    <em>76%</em>
+                </li>
+                <li class="bf">
+                    <i></i>
+                    <span>北风</span>
+                    <em>1~2级</em>
+                </li>
+                <li class="hj">
+                    <i></i>
+                    <span>185重度污染</span>
+                </li>
+                <li class="rc">
+                    <i></i>
+                    <span>日出</span>
+                    <em>06：40</em>
+                </li>
+                <li class="rl">
+                    <i></i>
+                    <span>日落</span>
+                    <em>05：30</em>
+                </li>
+            </ul>
+        </div>
+        <div class="line_con">
+            <div class="nav clearfix">
+                <div class="l fl">
+                    <span>整点天气实况</span>
+                    <em>|</em>
+                    <span class="on">24小时天气</span>
+                </div>
+                <span class="r fr">11:24实况</span>
+            </div>
+            <div class="curve_livezs" id="curve">
+                <div class="time">
+                </div>
+                <div class="wpic">
+                </div>
+                <div id="biggt" class="biggt">
+                </div>
+                <div class="tem">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="fo15 box">
+    <h3 class="tit">1-15天预报</h3>
+    <div class="cont">
+        <div class="contbox">
+            <ul id="d15" class="clearfix">
+                <li>
+                    <span class="t">01日（今天）</span>
+                    <i class="d d01"></i>
+                    <i class="n n02"></i>
+                    <span class="wx">南风</span>
+                    <span class="wl">2级</span>
+                    <em class="lv1">蔚蓝</em>
+                </li>
+                <li>
+                    <span class="t">01日（今天）</span>
+                    <i class="d d01"></i>
+                    <i class="n n02"></i>
+                    <span class="wx">南风</span>
+                    <span class="wl">2级</span>
+                    <em class="lv1">蔚蓝</em>
+                </li>
+                <li>
+                    <span class="t">01日（今天）</span>
+                    <i class="d d01"></i>
+                    <i class="n n02"></i>
+                    <span class="wx">南风</span>
+                    <span class="wl">2级</span>
+                    <em class="lv1">蔚蓝</em>
+                </li>
+                <li>
+                    <span class="t">01日（今天）</span>
+                    <i class="d d01"></i>
+                    <i class="n n02"></i>
+                    <span class="wx">南风</span>
+                    <span class="wl">2级</span>
+                    <em class="lv1">蔚蓝</em>
+                </li>
+                <li>
+                    <span class="t">01日（今天）</span>
+                    <i class="d d01"></i>
+                    <i class="n n02"></i>
+                    <span class="wx">南风</span>
+                    <span class="wl">2级</span>
+                    <em class="lv1">蔚蓝</em>
+                </li>
+
+                <li>
+                    <span class="t">01日（今天）</span>
+                    <i class="d d01"></i>
+                    <i class="n n02"></i>
+                    <span class="wx">南风</span>
+                    <span class="wl">2级</span>
+                    <em class="lv2">蔚蓝</em>
+                </li>
+
+                <li>
+                    <span class="t">01日（今天）</span>
+                    <i class="d d01"></i>
+                    <i class="n n02"></i>
+                    <span class="wx">南风</span>
+                    <span class="wl">2级</span>
+                    <em class="lv3">蔚蓝</em>
+                </li>
+
+                <li>
+                    <span class="t">01日（今天）</span>
+                    <i class="d d01"></i>
+                    <i class="n n02"></i>
+                    <span class="wx">南风</span>
+                    <span class="wl">2级</span>
+                    <em class="lv4">蔚蓝</em>
+                </li>
+                <li>
+                    <span class="t">01日（今天）</span>
+                    <i class="d d01"></i>
+                    <i class="n n02"></i>
+                    <span class="wx">南风</span>
+                    <span class="wl">2级</span>
+                    <em class="lv1"></em>
+                </li>
+
+                <li>
+                    <span class="t">01日（今天）</span>
+                    <i class="d d01"></i>
+                    <i class="n n02"></i>
+                    <span class="wx">南风</span>
+                    <span class="wl">2级</span>
+                    <em class="lv1"></em>
+                </li>
+                <li>
+                    <span class="t">01日（今天）</span>
+                    <i class="d d01"></i>
+                    <i class="n n02"></i>
+                    <span class="wx">南风</span>
+                    <span class="wl">2级</span>
+                    <em class="lv1"></em>
+                </li>
+                <li>
+                    <span class="t">01日（今天）</span>
+                    <i class="d d01"></i>
+                    <i class="n n02"></i>
+                    <span class="wx">南风</span>
+                    <span class="wl">2级</span>
+                    <em class="lv1"></em>
+                </li>
+                <li>
+                    <span class="t">01日（今天）</span>
+                    <i class="d d01"></i>
+                    <i class="n n02"></i>
+                    <span class="wx">南风</span>
+                    <span class="wl">2级</span>
+                    <em class="lv1"></em>
+                </li>
+                <li>
+                    <span class="t">01日（今天）</span>
+                    <i class="d d01"></i>
+                    <i class="n n02"></i>
+                    <span class="wx">南风</span>
+                    <span class="wl">2级</span>
+                    <em class="lv1"></em>
+                </li>
+                <li>
+                    <span class="t">01日（今天）</span>
+                    <i class="d d01"></i>
+                    <i class="n n02"></i>
+                    <span class="wx">南风</span>
+                    <span class="wl">2级</span>
+                    <em class="lv1"></em>
+                </li>
+            </ul>
+            <div id="d15cure" class="linecont">
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="live box">
+    <div class="t clearfix">
+        <h2>生活指数</h2>
+        <ul class="clearfix">
+            <li class="zwx on">
+                <i></i><span>紫外线指数</span>
+            </li>
+            <li class="cy">
+                <i></i><span>穿衣指数</span>
+            </li>
+            <li class="xc">
+                <i></i><span>洗车指数</span>
+            </li>
+            <li class="ly">
+                <i></i><span>旅游指数</span>
+            </li>
+            <li class="gm">
+                <i></i><span>感冒指数</span>
+            </li>
+            <li class="yd">
+                <i></i><span>运动指数</span>
+            </li>
+        </ul>
+        <i class="btn" id="dzlinve"></i>
+    </div>
+    <div class="cont">
+        <ul class="zwx clearfix">
+            <li>
+                <h3>今天</h3>
+                <div>
+                    <em></em>
+                    <span class="lv2">中等</span>
+                </div>
+                <p>属中等强度紫外线辐射天气，外出时建议涂擦SPF高于15、PA+的防晒护肤品，戴帽子、太阳镜。</p>
+            </li>
+            <li>
+                <h3>今天</h3>
+                <div>
+                    <em></em>
+                    <span class="lv1">中等</span>
+                </div>
+                <p>属中等强度紫外线辐射天气，外出时建议涂擦SPF高于15、PA+的防晒护肤品，戴帽子、太阳镜。</p>
+            </li>
+            <li>
+                <h3>今天</h3>
+                <div>
+                    <em></em>
+                    <span class="lv3">中等</span>
+                </div>
+                <p>属中等强度紫外线辐射天气，外出时建议涂擦SPF高于15、PA+的防晒护肤品，戴帽子、太阳镜。</p>
+            </li>
+            <li>
+                <h3>今天</h3>
+                <div>
+                    <em></em>
+                    <span class="lv4">中等</span>
+                </div>
+                <p>属中等强度紫外线辐射天气，外出时建议涂擦SPF高于15、PA+的防晒护肤品，戴帽子、太阳镜。</p>
+            </li>
+            <li>
+                <h3>今天</h3>
+                <div>
+                    <em></em>
+                    <span>中等</span>
+                </div>
+                <p>属中等强度紫外线辐射天气，外出时建议涂擦SPF高于15、PA+的防晒护肤品，戴帽子、太阳镜。</p>
+            </li>
+            <li>
+                <h3>今天</h3>
+                <div>
+                    <em></em>
+                    <span>中等</span>
+                </div>
+                <p>属中等强度紫外线辐射天气，外出时建议涂擦SPF高于15、PA+的防晒护肤品，戴帽子、太阳镜。</p>
+            </li>
+            <li>
+                <h3>今天</h3>
+                <div>
+                    <em></em>
+                    <span>中等</span>
+                </div>
+                <p>属中等强度紫外线辐射天气，外出时建议涂擦SPF高于15、PA+的防晒护肤品，戴帽子、太阳镜。</p>
+            </li>
+
+        </ul>
+
+    </div>
+</div>
+<div class="new box">
+    <h2>热点资讯</h2>
+    <div class="cont clearfix">
+        <div class="l">
+            <img src="http://pic.weather.com.cn/images/cn/photo/2016/07/02/021114569D6216FB6D7960B1C0A131D04E6F3A33_m.jpg" alt=""/>
+        </div>
+        <div class="c">
+            <span class="hot">南方强降雨轮番来袭 北方喜迎春雨</span>
+            <ul>
+                <li>
+                    <i></i>
+                    <a href="">那些正在消失的美景</a>
+                </li>
+                <li>
+                    <i></i>
+                    <a href="">厄尔尼诺5月结束 今年汛期或涝重于旱</a>
+                </li>
+                <li>
+                    <i></i>
+                    <a href="">今天傍晚起北京将有小雨 周末或出现浮尘天气</a>
+                </li>
+                <li>
+                    <i></i>
+                    <a href="">那些正在消失的美景</a>
+                </li>
+                <li>
+                    <i></i>
+                    <a href="">厄尔尼诺5月结束 今年汛期或涝重于旱</a>
+                </li>
+                <li>
+                    <i></i>
+                    <a href="">今天傍晚起北京将有小雨 周末或出现浮尘天气</a>
+                </li>
+            </ul>
+        </div>
+        <div class="r">
+            <div class="girl clearfix">
+                <img src="http://pic.weather.com.cn/images/cn/photo/2016/07/03/0309551269C5C230DB1C9188BAB3AC7A0DA28B9F_m.jpg" alt=""/>
+                <div class="txt">
+                    <h2>天气美女爆：
+                        那些喜欢抠鼻孔的
+                        人更聪明？</h2>
+                    <p>一项研究发现，那些喜欢抠
+                        鼻孔的人会比不敢抠鼻孔的
+                        人更聪明。</p>
+                </div>
+            </div>
+            <ul class="list">
+                <li>
+                    <i></i><a href="">本周强降雨袭南方 雨量偏多5成至1倍</a>
+                </li>
+                <li>
+                    <i></i><a href="">较强冷空气将袭中东部</a>
+                </li>
+                <li>
+                    <i></i><a href="">专家解析南方强降水特点范围及影响</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="javascripts/jquery.min.js"></script>
+<script src="javascripts/raphael.js"></script>
+<script src="javascripts/bootstrap.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+
+<script src="javascripts/index.js"></script>
+
+</body>
+</html>
