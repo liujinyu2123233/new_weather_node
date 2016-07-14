@@ -11,7 +11,7 @@ fs.readFile('./data/fo15d.json',function(err,cont){
     return;
   }
   fo15d = JSON.parse(cont+'')
-  console.log(fo15d)
+
 })
 fs.readFile('./data/fo24h.json',function(err,cont){
   if(err) {
@@ -19,13 +19,13 @@ fs.readFile('./data/fo24h.json',function(err,cont){
     return;
   }
   fo15d = JSON.parse(cont+'')
-  console.log(fo24h)
+
 })
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
   fs.readFile('./data/fo15d.json',function(err,cont){
-    console.log(cont)
+    //console.log(cont)
   })
 
   res.render('index', { title: 'Express' });

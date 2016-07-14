@@ -73,7 +73,6 @@ app.get('/index', function (req,res) {
   for(var i = 0;i<6;i++){
     obj.zwx.push({t:"今天",lv:1,txt:'中等',des:'属中等强度紫外线辐射天气，外出时建议涂擦SPF高于15、PA+的防晒护肤品，戴帽子、太阳镜。'})
   }
-  console.log(obj.length)
   res.end(JSON.stringify(obj))
 })
 // catch 404 and forward to error handler
